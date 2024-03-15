@@ -18,3 +18,5 @@ elif choice == "f":
       print(f"Unable to process file at {file}")
 else:
    print("Invalid choice")
+text = input("Enter text to check for palindrome: ")
+check_palindrome(text)
